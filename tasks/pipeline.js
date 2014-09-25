@@ -26,18 +26,17 @@ var jsFilesToInject = [
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
 
-  // Load angular next
+  // Load bower dependencies
   'js/bower_dependencies/angular/angular.js',
+  'js/bower_dependencies/angular-bootstrap/ui-bootstrap-tpls.js',
+  'js/bower_dependencies/ace-builds/src/ace.js',
+  'js/bower_dependencies/angular-ui-ace/ui-ace.js',
 
-  // Load other bower managed dependencies
-  'js/bower_dependencies/**/*.js',
-
-  // Load unmanaged dependencies.
+  // Load other unmanaged dependencies.
   'js/dependencies/**/*.js',
 
-  // All of the rest of your client-side js files
-  // will be injected here in no particular order.
-  'js/**/*.js'
+  // Load Angular frontend application code
+  'js/app/*.js'
 ];
 
 
