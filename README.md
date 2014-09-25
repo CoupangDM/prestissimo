@@ -5,6 +5,7 @@ a Simple presto(http://prestodb.io/) GUI
 # install & run
 
 ```bash
+# assume that you already installed npm, bower and sails globally
 npm install
 bower install
 sails lift
@@ -13,6 +14,7 @@ sails lift
 # development
 
 ## folder layout
+```
 (root) --- api -- (backend code, sails(http://sailsjs.org/))
          |       |
          |       |- controllers
@@ -36,7 +38,7 @@ sails lift
  (omit others, mostly auto generated)
          |
          |- views (attached to both sails and angular)
-
+```
 ## grunt workflow
 (TBD)
 
