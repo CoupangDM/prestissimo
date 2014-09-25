@@ -12,12 +12,12 @@ module.exports = function(grunt) {
 	grunt.config.set('bower', {
 		install: {
 			options: {
-				targetDir: './assets/vendor',
+				targetDir: 'assets/js/bower_dependencies',
 				layout: 'byType',
 				install: true,
 				verbose: false,
 				cleanTargetDir: true,
-				cleanBowerDir: true,
+				cleanBowerDir: false,
 				bowerOptions: {}
 			}
 		}
