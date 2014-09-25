@@ -1,0 +1,17 @@
+{
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.25",
+    "angular-bootstrap": "~0.11.0"
+  },
+  "name": "prestissimo",
+  "version": "0.1.0",
+  "author": "samuel281@gmail.com",
+  "private": true
+}

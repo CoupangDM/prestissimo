@@ -68,7 +68,8 @@ config/local.js
 
 node_modules
 bower_components
-
+#sails bower task generates this.
+assets/vendor
 
 
 
