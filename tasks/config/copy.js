@@ -23,11 +23,19 @@ module.exports = function(grunt) {
 				src: ['**/*.!(coffee|less)'],
 				dest: '.tmp/public'
 			},
+			// angular js code
 			{
 				expand: true,
 				cwd: './app',
-				src: ['**/*.!(coffee|less)'],
+				src: ['**/*.!(coffee|less|html|htm)'],
 				dest: '.tmp/public/js/app'
+			},
+			// angular js templates
+			{
+				expand: true,
+				cwd: './app/views',
+				src: ['**/*'],
+				dest: '.tmp/public/views'
 			}]
 		},
 		build: {

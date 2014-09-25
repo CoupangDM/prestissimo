@@ -28,6 +28,7 @@ var jsFilesToInject = [
 
   // Load bower dependencies
   'js/bower_dependencies/angular/angular.js',
+  'js/bower_dependencies/angular-route/angular-route.js',
   'js/bower_dependencies/angular-bootstrap/ui-bootstrap-tpls.js',
   'js/bower_dependencies/ace-builds/src/ace.js',
   'js/bower_dependencies/angular-ui-ace/ui-ace.js',
@@ -36,7 +37,7 @@ var jsFilesToInject = [
   'js/dependencies/**/*.js',
 
   // Load Angular frontend application code
-  'js/app/*.js'
+  'js/app/**/*.js'
 ];
 
 
