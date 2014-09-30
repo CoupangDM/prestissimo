@@ -19,7 +19,19 @@ module.exports = function(grunt) {
 				cwd: './assets',
 				src: ['**/*.!(coffee)'],
 				dest: '.tmp/public'
-			}]
+			},
+			// angular js code
+            {
+                cwd: './app',
+                src: ['**/*.!(coffee|less|html|htm)'],
+                dest: '.tmp/public/js/app'
+            },
+            // angular js templates
+            {
+                cwd: './app/views',
+                src: ['**/*'],
+                dest: '.tmp/public/views'
+            }]
 		}
 	});
 
