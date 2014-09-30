@@ -1,16 +1,18 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2">
             <!-- left nav -->
+            left nav bar
         </div>
-        <div class="col-md-12">
+        <div class="col-md-10">
             <!-- right editor and result panel -->
-            <div class="row">
-                <!-- editor panel -->
-            </div>
-            <div class="row">
 
-            </div>
+                <!-- editor panel -->
+                <div ui-codemirror="{
+                    lineNumbers: true,
+                    mode: 'sql',
+                    theme: 'eclipse'
+                }"></div>
         </div>
     </div>
 </div>

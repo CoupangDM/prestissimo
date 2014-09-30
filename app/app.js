@@ -1,4 +1,4 @@
-var prestissimo = angular.module('prestissimo', ['ngRoute', 'ui.bootstrap', 'ui.ace']);
+var prestissimo = angular.module('prestissimo', ['ngRoute', 'ui.bootstrap', 'ui.codemirror']);
 
 prestissimo.config(function($routeProvider){
 	$routeProvider

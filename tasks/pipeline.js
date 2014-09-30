@@ -16,7 +16,8 @@
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
   'vendor/**/*.css',
-  'styles/**/*.css'
+  'styles/**/*.css',
+  'js/bower_dependencies/codemirror/codemirror.css',
 ];
 
 
@@ -28,11 +29,8 @@ var jsFilesToInject = [
 
   // Load bower dependencies
   'js/bower_dependencies/angular/angular.js',
-  'js/bower_dependencies/angular-route/angular-route.js',
-  'js/bower_dependencies/angular-bootstrap/ui-bootstrap-tpls.js',
-  'js/bower_dependencies/ace-builds/src/ace.js',
-  'js/bower_dependencies/angular-ui-ace/ui-ace.js',
-  
+  'js/bower_dependencies/**/*.js',
+
   // Load other unmanaged dependencies.
   'js/dependencies/**/*.js',
 
